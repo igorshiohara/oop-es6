@@ -1,0 +1,25 @@
+{
+  "name": "oop-es6",
+  "version": "1.0.0",
+  "description": "This is a study case project to learn ES6, applying OOP concepts.",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorshiohara/oop-es6.git"
+  },
+  "author": "Igor K. Shiohara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorshiohara/oop-es6/issues"
+  },
+  "homepage": "https://github.com/igorshiohara/oop-es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "http-server": "^0.9.0"
+  }
+}
